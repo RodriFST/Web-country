@@ -10,7 +10,7 @@
 body, html {
   width: 100%;
   height: 115%;
-  background: #f8ffd7
+  background: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
 
   ;
   -webkit-background-size: cover;

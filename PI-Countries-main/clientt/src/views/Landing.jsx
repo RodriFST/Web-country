@@ -7,18 +7,28 @@ const Landing = () => {
   const history = useHistory();
   const handleOnClick = () => history.push("/main");
 
+
+
   return (
     <div className={styles.container}>
+    
+
+    
       <div className={styles.title}>
         <h1>COUNTRIES AND ACTIVITIES </h1>
         </div>
           <div className={styles.text}>
         
           </div>
+          <div className={styles.imagen}>
         <button className={styles.button} onClick={handleOnClick}>
+          
           Ingresar ahora
         </button>
-      </div>
+        </div>
+          </div>
+        
+       
   );
 };
 
